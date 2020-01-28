@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(quiz.jpg) no-repeat center center fixed;
+    /* background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+}
+
+.loginbox{
+    width: 750px;
+    height:750px;
+    color:#004d00;
+    top:35%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-30%,-30%);
+    box-sizing: border-box;
+    padding: 70px 100px;
+    box-shadow: 20px 20px 50px #000000;
+
+}
+
+h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size:22px;
+
+}
+
+.loginbox p{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+    color: #004d00;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    color: #004d00;
+
+}
+
+
+.loginbox input[type="text"], [type="password"],[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #004d00;
+    outline: none;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#004d00;
+    font-size: 16px;
+}
+
+/* .button {
+  background-color: #008000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+} */
+.button {
+    background-color: #008000;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 8px 0;
+    cursor: pointer;
+    /* border-radius: %; */
+    width: 93%;
+  }
+
+button:hover {
+  opacity: 0.8;
+}
+
